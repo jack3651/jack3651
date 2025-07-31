@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no, minimal-ui" />
+	<meta name="msapplication-tap-highlight" content="no"/>
+    <link rel="stylesheet" href="lib/box.css">
+</head>
+
+<body>
+    <div id="menu">
+		<div class="btn" id="btn_menu_hide"><img src="res/menu_hide.png"/></div>
+		<ul>
+			<li id="menu_home"><img src="res/home.png"/><span>Home</span></li>
+			<li id="menu_share"><img src="res/share.png"/><span>Share</span></li>
+			<li id="menu_more"><img src="res/rate.png"/><span>More Games</span></li>
+			<li id="menu_privacy"><img src="res/privacy.png"/><span>Privacy</span></li>
+			<li id="menu_exit"><img src="res/exit.png"/><span>Exit</span></li>
+		</ul>
+	</div>
+	<div id="main">
+		<div id="header">
+			<div class="btn" id="btn_menu_show"></div>
+			<div class="logo"></div>
+		</div>
+		<div id="content">
+			<div class="all_games">
+				<h3><img src="res/star.png"/><span>New Games</span></h3>
+				<div id="new_list" class="list scrollx"></div>
+				<br class="clear">
+				<h3><img src="res/star.png"/><span>Featured Games</span></h3>
+				<div id="game_list" class="list"></div>
+			</div>
+			<div id="game_contain">
+				<iframe id="game" src=""></iframe>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<script src="lib/zepto.js"></script>
+	<script src="config.js"></script>
+	<script src="lib/box.js"></script>
+	<script src="lib/hooks.js"></script>
+</body>
+
+</html>
+

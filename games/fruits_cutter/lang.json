@@ -1,0 +1,268 @@
+{
+  "stringresources": {
+    "strings": {
+      "string": [
+        {
+          "-id": "GameModesKey",
+          "en": "GAME MODES",
+          "es": "MODOS DE JUEGO",
+          "de": "SPIELMODI",
+          "it": "MODALITA DI GIOCO",
+          "fr": "MODES DE JEU",
+          "br": "MODOS DE JOGO",
+          "ru": "РЕЖИМЫ ИГРЫ"
+        },
+        {
+          "-id": "ArcadeKey",
+          "en": "ARCADE",
+          "es": "ARCADE",
+          "de": "ARKADE",
+          "it": "ARCADE",
+          "fr": "ARCADE",
+          "br": "ARCADE",
+          "ru": "АРКАДА"
+        },
+        {
+          "-id": "TrialKey",
+          "en": "TRIAL",
+          "es": "PRUEBA",
+          "de": "VERSUCH",
+          "it": "SFIDA",
+          "fr": "ENTRAÎNEMENT",
+          "br": "AVALIAÇAO",
+          "ru": "ИСПЫТАНИЕ"
+        },
+        {
+          "-id": "QueueKey",
+          "en": "QUEUE",
+          "es": "COLA",
+          "de": "REIHE",
+          "it": "CODA",
+          "fr": "FILE D'ATTENTE",
+          "br": "FILA",
+          "ru": "ОЧЕРЕДЬ"
+        },
+        {
+          "-id": "InstructionsTitleKey",
+          "en": "Instructions",
+          "fr": "Instructions",
+          "de": "Anleitung",
+          "es": "Instrucciones",
+          "br": "Instruções",
+          "it": "Istruzioni",
+          "ru": "Инструкция"
+        },
+        {
+          "-id": "GameGoalKey",
+          "en": "GOAL OF THE GAME:\nSLICE ALL INGREDIENTS!",
+          "es": "!EL OBJETIVO DEL JUEGO CONSISTE EN TROCEAR TODOS LOS INGREDIENTES!",
+          "de": "DAS ZIEL DES SPIELS:\nSCHNEIDE ALLE ZUTATEN!",
+          "it": "OBIETTIVO DEL GIOCO:\nTAGLIA TUTTI GLI INGREDIENTI!",
+          "fr": "BUT DU JEU:\nTRANCHER TOUS LES INGRÉDIENTS!",
+          "br": "OBJETIVO DO JOGO:\nCORTE TODOS OS INGREDIENTES!",
+          "ru": "ЦЕЛЬ ИГРЫ: НАРЕЖЬТЕ ВСЕ ИНГРЕДИЕНТЫ!"
+        },
+        {
+          "-id": "Instructions_textKey",
+          "en": "PUSH THE LIMIT IN ENDLESS ARCADE MODE. DON'T MISS ANY SHINY BONUS INGREDIENTS.\n\nIN TRIAL MODE KEEP PLAYING AS LONG AS YOU DON’T DROP 3 INGREDIENTS. OTHERWISE THE GAME ENDS.\n\nIN QUEUE MODE, SLICE ONLY INGREDIENTS THAT ARE ON THE LEFTMOST SIDE OF THE CONVEYOR BELT.\n\nCAN YOU GET THE GOLDEN CUP?\nBUT REMEMBER, ANYTHING YOU DO, DON'T SLICE THE BOMB!",
+          "es": "SUPERA LOS LÍMITES EN EL MODO ARCADE INFINITO. !QUE NO SE TE ESCAPE NINGÚN INGREDIENTE BRILLANTE!\n\nEN EL MODO PRUEBA, EL JUEGO CONTINÚA SIEMPRE Y CUANDO NO SE TE CAIGAN 3 INGREDIENTES, EN CUYO CASO LA PARTIDA CONCLUIRÁ.\n\nEN EL MODO COLA, DEBES TROCEAR SOLAMENTE LOS INGREDIENTES SITUADOS A LA IZQUIERDA DE LA CINTA TRANSPORTADORA.\n\n?PODRÁS HACERTE CON LA COPA DE ORO?\nY RECUERDA, HAGAS LO QUE HAGAS, !NO TROCEES LA BOMBA!",
+          "de": "SPIELE IM UNENDLICHEN ARKADENMODUS SO LANGE DU KANNST. LASS DIR KEINE DER FUNKELNDEN BONUSZUTATEN ENTWISCHEN.\n\nIM VERSUCHSMODUS KANNST DU SO LANGE SPIELEN WIE DU WILLST. WENN DIR 3 ZUTATEN AUF DEN BODEN FALLEN, IST DAS SPIEL JEDOCH BEENDET.\n\nIM REIHENMODUS DARFST DU NUR DIE ZUTATEN GANZ LINKS AUF DEM BAND SCHNEIDEN.\n\nKANNST DU DIR DEN GOLDPOKAL SICHERN?\nACHTE UNBEDINGT DARAUF, NICHT IN DIE BOMBEN ZU SCHNEIDEN!",
+          "it": "SUPERA I TUOI LIMITI NELLA MODALITA ARCADE INFINITA. NON PERDERTI GLI SCINTILLANTI INGREDIENTI BONUS.\n\nNELLA MODALITA SFIDA, CONTINUA A GIOCARE FINCHÉ NON FAI CADERE 3 INGREDIENTI. QUANDO ACCADE, LA PARTITA FINISCE.\n\nNELLA MODALITA CODA, AFFETTA SOLO GLI INGREDIENTI CHE SONO SUL LATO ESTREMO SINISTRO DEL NASTRO TRASPORTATORE.\n\nRIUSCIRAI A OTTENERE LA COPPA D'ORO?\nMA RICORDA: QUALUNQUE COSA TU FACCIA, NON TAGLIARE LA BOMBA!",
+          "fr": "REPOUSSEZ LES LIMITES EN MODE ARCADE INFINI. NE MANQUEZ AUCUN INGRÉDIENT BONUS BRILLANT.\n\nEN MODE ENTRAÎNEMENT, VOUS POUVEZ CONTINUER DE JOUER TANT QUE VOUS N'AVEZ PAS FAIT TOMBER 3 INGRÉDIENTS. SINON LA PARTIE EST TERMINÉE.\n\nEN MODE FILE D'ATTENTE, NE TRANCHEZ QUE LES INGRÉDIENTS QUI SE TROUVENT LE PLUS A GAUCHE DU TAPIS ROULANT.\n\nPOUVEZ-VOUS REMPORTER LA COUPE D'OR?\nQUOI QU'IL EN SOIT, ATTENTION A NE PAS TRANCHER LA BOMBE!",
+          "br": "PASSE DO LIMITE NO MODO ARCADE INFINITO. NAO PERCA NENHUM INGREDIENTE BRILHANTE DE BÔNUS.\n\nNO MODO AVALIAÇAO, CONTINUE A JOGAR DESDE QUE NAO DEIXE CAIR 3 INGREDIENTES. CASO CONTRÁRIO, O JOGO TERMINA.\n\nNO MODO FILA, CORTE APENAS INGREDIENTES QUE ESTAO MAIS A ESQUERDA DA CORREIA TRANSPORTADORA.\n\nVOCE CONSEGUE OBTER O TROFÉU DE OURO?\nMAS LEMBRE-SE, NAO IMPORTA O QUE FIZER, NAO CORTE A BOMBA!",
+          "ru": "ЛИМИТИРОВАННОЕ КОЛИЧЕСТВО НАЖАТИЙ В РЕЖИМЕ БЕСКОНЕЧНОЙ АРКАДЫ. НЕ ПРОПУСКАЙТЕ БОНУСНЫЕ ИНГРЕДИЕНТЫ.\n\nВ РЕЖИМЕ “ИСПЫТАНИЕ” ПРОДОЛЖАЙТЕ ИГРАТЬ КАК МОЖНО ДОЛЬШЕ И НЕ ДОПУСТИТЕ ПАДЕНИЮ 3 ИНГРЕДИЕНТОВ. В ПРОТИВНОМ СЛУЧАЕ ИГРА ЗАКОНЧИТЬСЯ.\n\nВ РЕЖИМЕ ОЧЕРЕДЬ НАРЕЗАЙТЕ ТОЛЬКО ИНГРЕДИЕНТЫ, КОТОРЫЕ НАХОДЯТСЯ НА ЛЕВОЙ СТОРОНЕ КОНВЕЙЕРНОЙ ЛЕНТЫ.\n\nВЫ МОЖЕТЕ ПОЛУЧИТЬ ЗОЛОТОЙ КУБОК?\nНО ПОМНИТЕ ОДНО, НЕ В КОЕМ СЛУЧАИ НЕ РАЗРЕЗАЙТЕ БОМБУ!"
+        },
+        {
+          "-id": "Controls_textKey",
+          "en": "CONTROLS:\nSlice with your finger through each ingredient to chop it!",
+          "es": "CONTROLES:\n¡Desliza el dedo por cada ingrediente para trocearlo!",
+          "de": "STEUERUNG:\nFahr mit dem Finger durch die Zutaten, um sie zu zerteilen!",
+          "it": "COMANDI:\nScorri il dito su ciascun ingrediente per tagliarlo!",
+          "fr": "COMMANDES:\nTranchez chaque ingrédient avec votre doigt pour le hacher !",
+          "br": "CONTROLES:\nFatie com seu dedo através de cada ingrediente para picá-lo!",
+          "ru": "УПРАВЛЕНИЕ:\nРазрезай каждый ингредиент пиццы, проводя по нему пальцем!"
+        },
+        {
+          "-id": "Controls_pc_textKey",
+          "en": "CONTROLS:\nHold left mouse button and slice through each ingredient to chop it!",
+          "es": "CONTROLES:\nMantén pulsado el botón izquierdo del ratón y pasa el cursor por cada ingrediente para trocearlo.",
+          "de": "STEUERUNG:\nHalte die linke Maustaste gedrückt und zerschneide jede Zutat!",
+          "it": "COMANDI:\nTieni premuto il pulsante sinistro del mouse e scorri attraverso gli ingredienti per tagliarli!",
+          "fr": "COMMANDES:\nMaintenez le bouton gauche de la souris appuyé et tranchez chaque ingrédient !",
+          "br": "CONTROLES:\nSegure o botão esquerdo do mouse para cortar o ingrediente.",
+          "ru": "УПРАВЛЕНИЕ:\nУдерживайте левую кнопку мыши и нарезайте каждый ингредиент, нарубите их!"
+        },
+        {
+          "-id": "PlayKey",
+          "en": "PLAY",
+          "fr": "Jouer",
+          "de": "Spielen",
+          "es": "Jugar",
+          "br": "Jogar",
+          "it": "Gioca",
+          "ru": "ИГРАТЬ"
+        },
+        {
+          "-id": "BestScoreKey",
+          "en": "BEST SCORE",
+          "es": "RÉCORD",
+          "de": "HÖCHSTLEISTUNG",
+          "it": "RECORD",
+          "fr": "MEILLEUR SCORE",
+          "br": "MELHOR",
+          "ru": "ЛУЧШИЙ РЕЗУЛЬТАТ"
+        },
+        {
+          "-id": "NextTargetKey",
+          "en": "NEXT TARGET",
+          "es": "PRÓXIMO OBJETIVO",
+          "de": "NÄCHSTES ZIEL",
+          "it": "PROSSIMO OBIETTIVO",
+          "fr": "OBJECTIF SUIVANT",
+          "br": "PRÓXIMO ALVO",
+          "ru": "СЛЕДУЮЩАЯ ЦЕЛЬ"
+        },
+        {
+          "-id": "ArcadeModeInfoKey",
+          "en": "DON'T HIT ANY BOMB!",
+          "es": "!NO LE DES A NINGUNA BOMBA!",
+          "de": "TRIFF BLOSS KEINE BOMBE!",
+          "it": "NON COLPIRE NESSUNA BOMBA!",
+          "fr": "NE TOUCHEZ PAS LES BOMBES!",
+          "br": "NAO ATINJA AS BOMBAS!",
+          "ru": "НЕ РАЗРЕЗАЙТЕ БОМБЫ!"
+        },
+        {
+          "-id": "TrialModeInfoKey",
+          "en": "DON'T LET 3 INGREDIENTS DROP!",
+          "es": "!NO DEJES QUE SE TE CAIGAN 3 INGREDIENTES!",
+          "de": "DIR DÜRFEN KEINE 3 ZUTATEN AUF DEN BODEN FALLEN!",
+          "it": "NON FAR CADERE 3 INGREDIENTI!",
+          "fr": "NE LAISSEZ PAS TOMBER 3 INGRÉDIENTS!",
+          "br": "NAO DEIXE 3 INGREDIENTES CAÍREM!",
+          "ru": "НЕ УРОНИТЕ 3 ИНГРИДИЕНТА!"
+        },
+        {
+          "-id": "QueueModeInfoKey",
+          "en": "GRADUALLY SLICE INGREDIENTS ON THE PIPELINE",
+          "es": "TROCEA LOS INGREDIENTES GRADUALMENTE",
+          "de": "SCHNEIDE DIE ZUTATEN AUF DEM BAND DER REIHE NACH",
+          "it": "TAGLIA GLI INGREDIENTI GRADUALMENTE",
+          "fr": "DÉCOUPEZ LES INGRÉDIENTS GRADUELLEMENT",
+          "br": "CORTE GRADUALMENTE OS INGREDIENTES NA FILA",
+          "ru": "ИЗБЫТОЧНОЕ КОЛИЧЕСТВО ИНГРИДИЕНТОВ НА ЛЕНТЕ"
+        },
+        {
+          "-id": "PauseKey",
+          "en": "Pause",
+          "fr": "Pause",
+          "de": "Pause",
+          "es": "Pausado",
+          "it": "Pausa",
+          "br": "Pausa",
+          "ru": "Пауза"
+        },
+        {
+          "-id": "ContinueKey",
+          "en": "Continue",
+          "fr": "Continuer",
+          "de": "Fortsetzen",
+          "es": "Continuar",
+          "br": "Continuar",
+          "it": "Continua",
+          "ru": "Продолжить"
+        },
+        {
+          "-id": "QuitToMenuKey",
+          "en": "QUIT TO MENU",
+          "es": "SALIR AL MENÚ",
+          "de": "ZUM MENÜ",
+          "it": "TORNA AL MENU",
+          "fr": "RETOUR AU MENU",
+          "br": "SAIR PARA MENU",
+          "ru": "ВЫЙТИ В МЕНЮ"
+        },
+        {
+          "-id": "GameOverKey",
+          "en": "GAME OVER",
+          "fr": "FIN DU JEU",
+          "de": "SPIELENDE",
+          "es": "FINAL DE LA PARTIDA",
+          "br": "FIM DO JOGO",
+          "it": "FINE DEL GIOCO",
+          "ru": "ВЫ ПРОИГРАЛИ"
+        },
+        {
+          "-id": "NewBestScoreKey",
+          "en": "NEW BEST SCORE!",
+          "es": "!NUEVO RÉCORD!",
+          "de": "NEUE HÖCHSTLEISTUNG!",
+          "it": "NUOVO RECORD!",
+          "fr": "NOUVEAU RECORD!",
+          "br": "NOVO RECORDE!",
+          "ru": "НОВЫЙ ЛУЧШИЙ СЧЕТ!"
+        },
+        {
+          "-id": "RetryKey",
+          "en": "Retry",
+          "fr": "Réessayer",
+          "de": "Neuer\nVersuch",
+          "es": "Volver\na intentar",
+          "br": "Tentar\nnovamente",
+          "it": "Riprova",
+          "ru": "Повторить"
+        },
+        {
+          "-id": "ScoreKey",
+          "en": "SCORE",
+          "es": "PUNTUACIÓN",
+          "de": "PUNKTE",
+          "it": "PUNTEGGIO",
+          "fr": "SCORE",
+          "br": "PONTUAÇAO",
+          "ru": "СЧЁТ"
+        },
+        {
+          "-id": "FreedomKey",
+          "en": "FREEDOM",
+          "es": "FREEDOM",
+          "de": "FREEDOM",
+          "it": "FREEDOM",
+          "fr": "FREEDOM",
+          "br": "FREEDOM",
+          "ru": "СВОБОДА"
+        },
+        {
+          "-id": "DoubleKey",
+          "en": "DOUBLE",
+          "es": "DOBLE",
+          "de": "VERDOPPLUNG",
+          "it": "DOUBLE",
+          "fr": "CROISSANCE",
+          "br": "DUPLA",
+          "ru": "УМНОЖЕНИЕ"
+        },
+        {
+          "-id": "FreezeKey",
+          "en": "FREEZE",
+          "es": "FREEZE",
+          "de": "FREEZE",
+          "it": "FREEZE",
+          "fr": "FREEZE",
+          "br": "FREEZE",
+          "ru": "ЗАМОРОЗКА"
+        },
+        {
+          "-id": "NewLiveKey",
+          "en": "1UP",
+          "es": "1UP",
+          "de": "1UP",
+          "it": "1UP",
+          "fr": "1VIE",
+          "br": "1UP",
+          "ru": "ПОВЫШЕНИЕ"
+        }
+      ]
+    }
+  }
+}

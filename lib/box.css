@@ -1,0 +1,113 @@
+body{
+	background-color: #d0d0d0;
+	color:white;
+	margin: 0;
+	font-family: Arial;
+	padding-bottom: 32px;
+}
+
+h3 {font-size: 14px; background-color: #552459; margin-bottom: 0px; margin-top: 20px; clear: both;}
+h3 img {width: 20px; margin-left: 5px; float: left; margin-right: 5px; margin-top: 1px;}
+h3 span {margin-top: 0px; display: block; height: 22px; padding-top: 2px;}
+
+#menu{
+	display:none;
+	position: fixed;
+	width: 250px;
+	height: 100vh;
+	border: solid #441751 1px;
+	background-color: #6c2d6b;
+	overflow: hidden;
+	margin: 0;
+	z-index: 1;
+}
+
+#menu ul{list-style: none; padding-left: 0;}
+#menu li{padding-top: 8px; padding-bottom: 8px; margin: 4px; padding-left: 4px; border-bottom: solid #865e85 1px; height: 30px; clear: both; cursor: pointer;}
+#menu li:hover {background-color: #773d79;}
+#menu a{text-decoration:none;color: #1cab1c;}
+#menu span {margin-top: 10px; margin-left: 4px; display: block; float: left;}
+#menu img{float: left;}
+
+.clear{clear: both;}
+.btn{cursor: pointer;}
+.right{float: right; margin-right: 8px; margin-top: 8px;}
+
+#header {
+	border: solid #441751 1px;
+	background-color: #6c2d6b;
+	position: fixed;
+	width: 100%;
+}
+#content {
+  padding-top: 32px;
+  width:100%;
+}
+
+.scrollx {overflow-x: scroll;	overflow-y: hidden; display: flex;}
+.scrollx .gm{width: 92px; flex: 0 0 auto;}
+
+#btn_menu_show{
+	background-image: url('../res/menu_show.png');
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+.logo{
+	background-image: url('../res/logo.png');
+	width: 250px;
+	margin: 0 auto;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+}
+.gm{
+	width: 33%;
+	float: left;
+	margin-top: 10px;
+}
+.gm div{
+	margin: 0 auto;
+	width: 90%;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.gm div img{
+	width: 100%;
+	margin: 0 auto;
+}
+.gm div span{
+	color: #464646;
+	font-size: 13px;
+	text-align: center;
+	display: block;
+	background-color: #ececec;
+	height: 34px;
+	padding: 3px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-top: -4px;
+}
+
+#game_contain{
+	position: fixed;
+	display: none;
+	height: calc(100vh - 32px);
+	width: 100%;
+	border: none;
+	overflow: hidden;
+	background-color: black;
+}
+#game{
+    width:100%;
+    height: calc(100vh - 82px);
+    border:none;
+    overflow: hidden;
+}
+
+.all_games{
+    height: calc(100vh - 92px);
+    overflow-y: scroll;
+}
+

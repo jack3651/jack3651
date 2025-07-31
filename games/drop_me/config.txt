@@ -1,0 +1,16 @@
+{"c2dictionary":true, "data":{
+	"facebookPage":"http://m.shtoss.com",
+	"twitterPage":"http://m.shtoss.com",
+	"googlePage":"http://m.shtoss.com",
+	"rateUs":"http://m.shtoss.com",
+	"moreGames":"http://m.shtoss.com",
+	"shareMessage":"I just scored $score at My Game !",
+	"label_score":"SCORE",
+	"label_best":"BEST",
+	"label_newbest":"New Best",
+	"label_paused":"GAME PAUSED",
+	"label_over":"GAME OVER",
+	"label_quit":"Are you sure you want to quit ?",
+	"label_nocoins":"You don't have enough coins !",
+	"label_store":"STORE"
+}}

@@ -1,0 +1,8 @@
+{"c2dictionary":true, "data":{
+	"facebookPage":"http://plippa.com",
+	"twitterPage":"http://plippa.com",
+	"googlePage":"http://plippa.com",
+	"rateUs":"http://plippa.com",
+	"moreGames":"http://plippa.com",
+	"shareMessage":"I just scored $score at Crazy Colors !"
+}}
