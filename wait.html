@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>請稍候 / 请稍候 / Please wait</title>
+  <style>
+    :root{
+      --bg:#fafbff;
+      --card:#ffffff;
+      --accent:#2563eb;
+      --text:#0f1724;
+      --muted:#475569;
+    }
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",Arial;}
+    body{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:linear-gradient(180deg,#f8fafc,#eef2ff);
+      color:var(--text);
+      padding:20px;
+    }
+    .wrap{
+      width:100%;
+      max-width:560px;
+      background:var(--card);
+      border-radius:12px;
+      padding:28px;
+      box-shadow:0 6px 22px rgba(16,24,40,0.08);
+      text-align:center;
+    }
+    .title{
+      font-size:28px;
+      font-weight:700;
+      margin:6px 0 4px;
+    }
+    .subtitle{
+      color:var(--muted);
+      margin:0 0 18px;
+      font-size:15px;
+    }
+    .lang-buttons{
+      display:flex;
+      gap:10px;
+      justify-content:center;
+      margin-top:16px;
+      flex-wrap:wrap;
+    }
+    button {
+      border:0;
+      background:var(--accent);
+      color:white;
+      padding:10px 14px;
+      border-radius:9px;
+      font-weight:600;
+      cursor:pointer;
+      box-shadow:0 6px 16px rgba(37,99,235,0.12);
+    }
+    button.alt{
+      background:transparent;
+      color:var(--muted);
+      border:1px solid rgba(15,23,36,0.06);
+      box-shadow:none;
+    }
+    .note{font-size:13px;color:var(--muted);margin-top:12px;}
+    @media (max-width:420px){
+      .title{font-size:22px;}
+      button{padding:8px 10px;}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main" aria-live="polite">
+    <div id="title" class="title">請稍候</div>
+    <div id="subtitle" class="subtitle">頁面處理中，請稍後。</div>
+
+    <div class="lang-buttons" role="navigation" aria-label="Language switch">
+      <button id="btn-zh-hant">繁體中文</button>
+      <button id="btn-zh-hans" class="alt">簡體中文</button>
+      <button id="btn-en" class="alt">English</button>
+    </div>
+
+    <div class="note" id="note">自動偵測系統語言。</div>
+  </main>
+
+  <script>
+    (function(){
+      // 三種語系字串
+      const msgs = {
+        'zh-Hant': {
+          title: '請稍候',
+          subtitle: '頁面處理中，請稍後。',
+          note: '語言：繁體中文'
+        },
+        'zh-Hans': {
+          title: '请稍候',
+          subtitle: '页面处理中，请稍候。',
+          note: '语言：简体中文'
+        },
+        'en': {
+          title: 'Please wait',
+          subtitle: 'The page is being processed. Please wait.',
+          note: 'Language: English'
+        }
+      };
+
+      const titleEl = document.getElementById('title');
+      const subtitleEl = document.getElementById('subtitle');
+      const noteEl = document.getElementById('note');
+
+      // 設定語系顯示
+      function setLang(code, byUser=false){
+        let k = 'zh-Hant';
+        if (!code) code = navigator.language || navigator.userLanguage || 'zh-Hant';
+
+        // 標準化
+        code = code.toLowerCase();
+        if (code.startsWith('zh-hant') || code.startsWith('zh-tw') || code.startsWith('zh-hk') || code.startsWith('zh-mo')) {
+          k = 'zh-Hant';
+        } else if (code.startsWith('zh') || code.startsWith('zh-cn') || code.startsWith('zh-sg') || code.startsWith('zh-hans')) {
+          k = 'zh-Hans';
+        } else {
+          k = 'en';
+        }
+
+        const m = msgs[k];
+        titleEl.textContent = m.title;
+        subtitleEl.textContent = m.subtitle;
+        noteEl.textContent = m.note + (byUser ? '（手動切換）' : '（自動偵測）');
+
+        // Accessibility: set document lang attribute
+        document.documentElement.lang = (k === 'en') ? 'en' : (k === 'zh-Hans' ? 'zh-Hans' : 'zh-Hant');
+      }
+
+      // 按鈕綁定
+      document.getElementById('btn-zh-hant').addEventListener('click', () => setLang('zh-Hant', true));
+      document.getElementById('btn-zh-hans').addEventListener('click', () => setLang('zh-Hans', true));
+      document.getElementById('btn-en').addEventListener('click', () => setLang('en', true));
+
+      // 初始：自動偵測
+      setLang(navigator.language || navigator.userLanguage);
+
+      // 如果頁面載於 WebView 且 native 想要傳入語言，可監聽 postMessage 或 window.android（可選）
+      // 範例: Android WebView 可呼叫 webView.evaluateJavascript("window.setAppLang && window.setAppLang('en');", null);
+      window.setAppLang = function(lang){
+        try { setLang(lang, true); } catch(e) {}
+      };
+    })();
+  </script>
+</body>
+</html>
